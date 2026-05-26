@@ -64,17 +64,22 @@ FalconGamingOS/
 
 ---
 
-## Hardware Compatibility
+## Development Cycles
 
-| Brand | Model | GPU | Status |
-|---|---|---|---|
-| Laptop | 15/16" gaming laptop (10th–12th gen Intel) | RTX 3050 | 🚧 In Development |
-| Laptop | Budget gaming laptop (10th–12th gen Intel) | RTX 3050 | 🚧 In Development |
-| Laptop | Mid-range gaming laptop (11th–12th gen Intel) | RTX 3060/3070 | 🚧 In Development |
-| Laptop | Entry gaming laptop 15/16" | RTX 3050/3060 | 🚧 In Development |
-| Laptop | General-purpose laptop (Intel) | RTX 3050 | 🚧 In Development |
-| Laptop | High-end gaming laptop 15/16" | RTX 3060–3080 | 🚧 In Development |
-| Laptop | XPS 15 | RTX 3050 Ti | 🚧 In Development |
+FalconOS follows a 10-cycle model. Each cycle has one measurable deliverable and a clear definition of done. A cycle does not start until the previous one ships.
+
+| Cycle | Name | Deliverable | Definition of Done | Duration | Status |
+|---|---|---|---|---|---|
+| **C1** | Build Pipeline | Working Cubic + QEMU pipeline | Bootable ISO built and tested in QEMU in under 10 minutes | Week 1–2 | 🔵 Current |
+| **C2** | Base Hardening | Stripped, tuned Ubuntu base | Boots under 15s. Idle RAM under 400MB. Liquorix running | Week 3–4 | ⬜ Planned |
+| **C3** | GPU Automation | Auto GPU driver install service | Driver installs with zero user input. Secure Boot signed. Survives kernel update | Week 5–6 | ⬜ Planned |
+| **C4** | Gaming Stack | Full gaming layer baked into ISO | Steam launches. Proton-GE selectable. One Windows game runs via Proton | Week 7–8 | ⬜ Planned |
+| **C5** | Console UI | Gamescope session + React launcher | Boots into full-screen launcher. Games launch one-tap. Controller navigates UI | Week 9–12 | ⬜ Planned |
+| **C6** | Installer | Calamares + first boot wizard | Non-technical user installs in under 5 minutes. GPU setup runs automatically | Week 13–15 | ⬜ Planned |
+| **C7** | Hardware Testing | Verified on real machines | Tested on 2+ physical machines. Top 10 issues fixed. Test suite green | Week 16–17 | ⬜ Planned |
+| **C8** | Update System | Safe OTA updates with rollback | Timeshift snapshots before every update. Never interrupts gaming. Rollback in one command | Week 18–19 | ⬜ Planned |
+| **C9** | Beta Release | v0.1-beta public ISO | Published on GitHub Releases with SHA256. Install guide live. 100+ downloads | Week 20–22 | ⬜ Planned |
+| **C10** | v1.0 | Stable v1.0 release | All P1/P2 bugs resolved. Covered by at least one Linux publication. v1.1 roadmap published | Week 23–24 | ⬜ Planned |
 
 ---
 
