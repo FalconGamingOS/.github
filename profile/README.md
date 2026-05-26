@@ -57,7 +57,7 @@ GPU      NVIDIA RTX 30xx  (Ampere)
 FalconGamingOS/
 ├── falcon-os-build          ← ISO pipeline, kernel, Calamares installer
 ├── falcon-launcher          ← React console UI (PS5-style game grid)
-├── falcon-system-service    ← Node.js backend — Steam API, GPU stats, game launch
+├── falcon-system-service    ← Python FastAPI backend — Steam API, GPU stats, game launch
 ├── falcon-hw-profiles       ← gaming hardware profiles, driver scripts
 └── falcon-site              ← Landing page and documentation
 ```
