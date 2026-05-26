@@ -19,7 +19,7 @@ Boot in 15 seconds. No bloat. No desktop. Just games.
 
 FalconOS is an **Ubuntu 24.04-based gaming operating system** that boots directly into a console-style launcher — think PS5 meets Linux. No desktop to manage. No Windows bloat. Just your games, ready in 15 seconds.
 
-Built specifically for **Dell and HP laptops/desktops** with **NVIDIA RTX 30xx GPUs**, FalconOS auto-installs drivers, pre-configures Steam + Proton, and delivers a gaming experience that beats Windows on the same hardware.
+Built specifically for **gaming laptops and desktops** with **NVIDIA RTX 30xx GPUs**, FalconOS auto-installs drivers, pre-configures Steam + Proton, and delivers a gaming experience that beats Windows on the same hardware.
 
 > Built in Pakistan. For Pakistani gamers. And everyone else.
 
@@ -33,7 +33,7 @@ Built specifically for **Dell and HP laptops/desktops** with **NVIDIA RTX 30xx G
 | **Console UI** | PS5-style full-screen launcher via Gamescope — controller + keyboard navigation |
 | **Proton + DXVK** | Run Windows games natively. DX9 → DX12. DLSS 2.x on RTX hardware |
 | **Liquorix kernel** | Low-latency gaming kernel with NVMe tuning and optimised scheduler |
-| **Dell + HP ready** | Pre-baked Realtek/Intel/Broadcom wifi firmware — works out of the box |
+| **Broad wifi support** | Pre-baked Realtek/Intel/Broadcom wifi firmware — works out of the box |
 | **Desktop mode** | One tap to KDE Plasma. One tap back to Gaming Mode |
 | **15s boot** | From power button to game launcher — no waiting |
 | **Zero background updates** | Updates never interrupt your session |
@@ -43,7 +43,7 @@ Built specifically for **Dell and HP laptops/desktops** with **NVIDIA RTX 30xx G
 ## Minimum Requirements
 
 ```
-CPU      Intel Core i5 10th gen+  (Dell / HP)
+CPU      Intel Core i5 10th gen+
 RAM      16 GB DDR4/DDR5
 Storage  NVMe M.2  (any capacity)
 GPU      NVIDIA RTX 30xx  (Ampere)
@@ -58,7 +58,7 @@ FalconGamingOS/
 ├── falcon-os-build          ← ISO pipeline, kernel, Calamares installer
 ├── falcon-launcher          ← React console UI (PS5-style game grid)
 ├── falcon-system-service    ← Node.js backend — Steam API, GPU stats, game launch
-├── falcon-hw-profiles       ← Dell/HP hardware profiles, driver scripts
+├── falcon-hw-profiles       ← gaming hardware profiles, driver scripts
 └── falcon-site              ← Landing page and documentation
 ```
 
@@ -68,13 +68,13 @@ FalconGamingOS/
 
 | Brand | Model | GPU | Status |
 |---|---|---|---|
-| Dell | Inspiron 15/16 (10th–12th gen) | RTX 3050 | 🚧 In Development |
-| Dell | Vostro 15 | RTX 3050 | 🚧 In Development |
-| Dell | G15 Gaming | RTX 3060/3070 | 🚧 In Development |
-| HP | Victus 15/16 | RTX 3050/3060 | 🚧 In Development |
-| HP | Pavilion 15 | RTX 3050 | 🚧 In Development |
-| HP | Omen 15/16 | RTX 3060–3080 | 🚧 In Development |
-| Dell | XPS 15 | RTX 3050 Ti | 🚧 In Development |
+| Laptop | 15/16" gaming laptop (10th–12th gen Intel) | RTX 3050 | 🚧 In Development |
+| Laptop | Budget gaming laptop (10th–12th gen Intel) | RTX 3050 | 🚧 In Development |
+| Laptop | Mid-range gaming laptop (11th–12th gen Intel) | RTX 3060/3070 | 🚧 In Development |
+| Laptop | Entry gaming laptop 15/16" | RTX 3050/3060 | 🚧 In Development |
+| Laptop | General-purpose laptop (Intel) | RTX 3050 | 🚧 In Development |
+| Laptop | High-end gaming laptop 15/16" | RTX 3060–3080 | 🚧 In Development |
+| Laptop | XPS 15 | RTX 3050 Ti | 🚧 In Development |
 
 ---
 
@@ -104,10 +104,10 @@ FalconGamingOS/
 
 ## Contributing
 
-The best place to contribute right now is **[falcon-hw-profiles](https://github.com/FalconGamingOS/falcon-hw-profiles)** — submit a profile for your Dell or HP machine and help expand hardware support.
+The best place to contribute right now is **[falcon-hw-profiles](https://github.com/FalconGamingOS/falcon-hw-profiles)** — submit a profile for your machine and help expand hardware support.
 
 1. Fork `falcon-hw-profiles`
-2. Add a folder under `dell/` or `hp/` with your model name
+2. Add a folder under `laptop/` or `laptop/` with your model name
 3. Include a `profile.json` (wifi chip, known issues) and `tweaks.sh`
 4. Open a PR
 
