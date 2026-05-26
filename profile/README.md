@@ -68,13 +68,13 @@ FalconGamingOS/
 
 | Brand | Model | GPU | Status |
 |---|---|---|---|
-| Dell | Inspiron 15/16 (10th–12th gen) | RTX 3050 | ✅ Primary target |
-| Dell | Vostro 15 | RTX 3050 | ✅ Primary target |
-| Dell | G15 Gaming | RTX 3060/3070 | ✅ Primary target |
-| HP | Victus 15/16 | RTX 3050/3060 | ✅ Primary target |
-| HP | Pavilion 15 | RTX 3050 | ✅ Primary target |
-| HP | Omen 15/16 | RTX 3060–3080 | 🔧 Testing |
-| Dell | XPS 15 | RTX 3050 Ti | 🔧 Testing |
+| Dell | Inspiron 15/16 (10th–12th gen) | RTX 3050 | 🚧 In Development |
+| Dell | Vostro 15 | RTX 3050 | 🚧 In Development |
+| Dell | G15 Gaming | RTX 3060/3070 | 🚧 In Development |
+| HP | Victus 15/16 | RTX 3050/3060 | 🚧 In Development |
+| HP | Pavilion 15 | RTX 3050 | 🚧 In Development |
+| HP | Omen 15/16 | RTX 3060–3080 | 🚧 In Development |
+| Dell | XPS 15 | RTX 3050 Ti | 🚧 In Development |
 
 ---
 
